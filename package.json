@@ -1,0 +1,28 @@
+{
+  "name": "notes-app-backend",
+  "version": "1.0.0",
+  "description": "A cloud based notes application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mihir1703/BackendNotesApp.git"
+  },
+  "author": "mihir1703",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mihir1703/BackendNotesApp/issues"
+  },
+  "homepage": "https://github.com/Mihir1703/BackendNotesApp#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "my-sql": "^1.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
